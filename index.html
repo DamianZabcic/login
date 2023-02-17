@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form-group">
+      <h2 class="titulo-login">Login</h2>
+      <input id="usuario" type="text" class="form-control" name="username" placeholder="usuario">
+      <input id="contrasena" type="password" class="form-control" name="password" placeholder="contraseña">
+      <button id="boton" class="boton" onclick="login()">Iniciar sesión</button>
+      <span class="olvido-contrasena">¿Olvidaste tu contraseña? <a href="#" onclick="olvidoContrasena()">Clic aquí</a></span>
+    </div>
+    <footer>Damián Zabcic</footer>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
